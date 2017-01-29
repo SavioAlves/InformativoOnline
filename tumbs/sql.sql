@@ -1,3 +1,8 @@
+CREATE TABLE adm(
+                login VARCHAR (15),
+                senha VARCHAR (25)
+);
+
 CREATE TABLE postagem (
                 cod_post INT AUTO_INCREMENT NOT NULL,
                 titulo   VARCHAR(50) NOT NULL,
@@ -5,7 +10,6 @@ CREATE TABLE postagem (
                 data_post DATETIME NOT NULL,   
                 PRIMARY KEY (cod_post)
 );
-
 
 CREATE TABLE foto (
                 cod_foto INT AUTO_INCREMENT NOT NULL,
